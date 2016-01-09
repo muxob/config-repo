@@ -21,3 +21,7 @@ security:
             clientAuthenticationScheme: form
         resource:
             userInfoUri: https://graph.facebook.com/me
+
+zuul:
+  routes:
+    catalog: /products/**
